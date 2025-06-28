@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NamFood - Ordena y Administra Tu Local</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #241F31;
+
+            padding: 10px 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            color: white;
+        }
+
+        .logo img {
+            height: 50px;
+        }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        .menu li {
+            margin-left: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #dd1450;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            color: #00bfff;
+        }
+
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            filter: brightness(0.6);
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .hero-text h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .hero-text p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .btn-primary {
+            background-color: #dd1450;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #bb1044;
+        }
+
+        footer {
+            background-color: #241F31;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><img src="https://via.placeholder.com/150x50?text=NamFood" alt="NamFood Logo"></a>
+            </div>
+            <div class="search-box">
+                <input type="search" class="form-control" placeholder="Buscar...">
+            </div>
+            <ul class="menu">
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Sectores</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+   
+
+    <div>
+        <!-- Hero Section -->
+        <nav>
+            <section class="hero">
+                <img src="../Descargas/pexels-robinstickel-70497.jpg"
+                    alt="Hero">
+                <div class="hero-text">
+                    <h1>Ordena Comida Rápido y Administra tu Local</h1>
+                    <p>Soluciones tecnológicas para estudiantes y dueños de negocios gastronómicos</p>
+                    <a href="#" class="btn btn-primary mt-3">Conoce la App</a>
+                </div>
+            </section>
+        </nav>
+        
+        <!-- Sección de Servicios -->
+        <section class="container mt-5">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h3>Ordena Fácil</h3>
+                    <p>Los alumnos pueden pedir desde su celular, evitando filas y mejorando la experiencia.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Administra tu Local</h3>
+                    <p>Control de inventario, pedidos y reportes desde una sola plataforma.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Estadísticas en Tiempo Real</h3>
+                    <p>Obtén reportes y análisis para mejorar la gestión de tu negocio.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+  
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 NamFood. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
