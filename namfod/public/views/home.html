@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio - NamFood</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #FBA04C;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+                header {
+            background-color: #241F31;
+            padding: 10px 0;
+        }
+
+        .navbar {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+
+        .logo img {
+            height: 60px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #FBA04C;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            color: #00bfff;
+        }
+
+        .search-box input {
+            border-radius: 20px;
+            padding: 5px 15px;
+        }
+
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 550px;
+            object-fit: cover;
+            filter: brightness(0.5);
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+       
+        
+        .title {
+            text-align: center;
+            margin: 2rem 0 1rem;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .card {
+            border-radius: 1rem;
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .card img {
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+            max-height: 180px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/nanfod.png" alt="NamFood Logo" /></a>
+            </div>
+            <div class="search-box d-none d-md-block">
+                <input type="search" class="form-control" placeholder="Buscar..." />
+            </div>
+            <ul class="menu list-unstyled mb-0 d-flex">
+                <li><a href="">x</a></li>
+                <li><a href="">x</a></li>
+                <li><a href="">x</a></li>
+                <li><a href="">x</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2 class="title">Lista de Establecimientos</h2>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="../img/pizza.png" class="card-img-top" alt="Veloci Pizza">
+                    <div class="card-body">
+                        <h5 class="card-title">Veloce Pizza</h5>
+                        <p class="card-text">Pizza Fuera de la institucion</p>
+                        <a href="order.html" class="btn btn-dark w-100">Ver Menú</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Más cards -->
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="../img/hamburguesa.png" class="card-img-top" alt=".">
+                    <div class="card-body">
+                        <h5 class="card-title">La Mordida Express</h5>
+                        <p class="card-text">Hamburguesas Dentro de la institucion</p>
+                        <a href="order.html" class="btn btn-dark w-100">Ver Menú</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="../img/tacos.png" class="card-img-top" alt=".">
+                    <div class="card-body">
+                        <h5 class="card-title">El  Taquicentro</h5>
+                        <p class="card-text">Tacos mexicanos Fuera de la institucion</p>
+                        <a href="order.html" class="btn btn-dark w-100">Ver Menú</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="../img/chiskey.png" class="card-img-top" alt=".">
+                    <div class="card-body">
+                        <h5 class="card-title">Sweet & Churros</h5>
+                        <p class="card-text">Postres y antojos Fuera de la institucion</p>
+                        <a href="order.html" class="btn btn-dark w-100">Ver Menú</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
