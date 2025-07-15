@@ -1,1 +1,4 @@
-file:///opt/lampp/htdocs/www/Develoval05.github.io-main/index.php
+<?php
+header("./namfod/public/index.html");
+exit();
+?>
