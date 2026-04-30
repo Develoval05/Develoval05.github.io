@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>CYMIBSA | Servicios Industriales Especializados</title>
+    <meta name="description" content="Servicios industriales de montaje, mantenimiento, ductos, estructuras y asistencia técnica profesional. Calidad y seguridad garantizada.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<input class="nav-checkbox" id="nav-checkbox" type="checkbox" hidden>
+
+<header class="navbar">
+    <div class="container bar">
+        <div class="logo">
+            <div class="logo-icon"> <img src="assets/logotipo.jpeg" alt="CYMIBSA logo" class="logo-image"></div>
+            <div class="logo-text">
+                <h1>CYMIBSA</h1>
+                <span>Construcción y Mantenimiento Industrial</span>
+            </div>
+        </div>
+        <nav class="nav-links">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="servicios.html">Servicios</a>
+            <a href="proyectos.html">Proyectos</a>
+            <a href="contacto.html" class="btn-secondary">Contacto</a>
+            <!-- Botón Dark Mode -->
+            <button id="themeToggle" class="theme-toggle" aria-label="Cambiar modo claro/oscuro">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+                <span class="theme-toggle-text">Modo claro</span>
+            </button>
+        </nav>
+        <div class="nav-toggle">
+            <label for="nav-checkbox">
+                <span></span>
+            </label>
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-banner">
+            <span class="eyebrow">Excelencia Industrial</span>
+            <h1>SOLUCIONES QUE GARANTIZAN OPERATIVIDAD Y SEGURIDAD</h1>
+            <p>Desde montaje especializado hasta mantenimiento preventivo, ofrecemos servicios integrales para la industria manufacturera y pesada con los más altos estándares de calidad.</p>
+            <div class="hero-actions">
+                <a href="contacto.html" class="btn btn-primary">Solicitar cotización</a>
+                <a href="#servicios" class="btn btn-secondary">Ver servicios</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE VIDEO -->
+    <section class="video-section">
+        <div class="container">
+            <div class="video-container">
+                <div class="video-content">
+                    <span class="eyebrow"><i class="fas fa-play-circle"></i> CONOZCA NUESTRO TRABAJO</span>
+                    <h2>Excelencia en cada proyecto industrial</h2>
+                    <p>Descubra cómo CYMIBSA transforma los desafíos industriales en soluciones eficientes. 
+                        Más de 15 años de experiencia respaldan nuestra capacidad para ejecutar proyectos 
+                        de alta complejidad con los más altos estándares de calidad trabajo y seguridad.</p>
+                    <div class="video-stats">
+                        <div class="video-stat-item">
+                            <span class="video-stat-number">50+</span>
+                            <span class="video-stat-label">Proyectos exitosos</span>
+                        </div>
+                        <div class="video-stat-item">
+                            <span class="video-stat-number">98%</span>
+                            <span class="video-stat-label">Satisfacción cliente</span>
+                        </div>
+                        <div class="video-stat-item">
+                            <span class="video-stat-number">24/7</span>
+                            <span class="video-stat-label">Soporte técnico</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-wrapper">
+                    <iframe 
+                        src="assets/video/cymibsaSlide.mp4" 
+                        title="CYMIBSA Video Institucional"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--alt" id="servicios">
+        <div class="container">
+            <div class="section-title">
+                <h2>Servicios Especializados</h2>
+                <p>Soluciones integrales de ingeniería y construcción industrial con tecnología de vanguardia y compromiso</p>
+            </div>
+            <div class="services-grid">
+                <!-- Montaje Mecánico -->
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="assets/montajeMecanico.png" alt="Montaje Mecánico Industrial">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-crane"></i></div>
+                        <h3>Montaje Mecánico</h3>
+                        <p>Instalación precisa de equipos y maquinaria industrial con supervisión de ingeniería en toda la obra.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Alineación láser de precisión</li>
+                            <li><i class="fas fa-check-circle"></i> Instalación de turbinas y compresores</li>
+                            <li><i class="fas fa-check-circle"></i> Puesta en marcha certificada</li>
+                        </ul>
+                        <a href="contacto.html" class="service-link">Solicitar servicio <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Redes de Tubería -->
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="assets/redesTuberiaIndustrial.png" alt="Redes de Tubería Industrial">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-pipe-valve"></i></div>
+                        <h3>Redes de Tubería</h3>
+                        <p>Proyectos de tubería para agua, gas, vapor y fluidos de proceso.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Soldadura certificada AWS</li>
+                            <li><i class="fas fa-check-circle"></i> Pruebas hidrostáticas</li>
+                            <li><i class="fas fa-check-circle"></i> Inspección por rayos X</li>
+                        </ul>
+                        <a href="contacto.html" class="service-link">Solicitar servicio <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+ 
+                <!-- Tanques Especializados -->
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="assets/tanquesEspecializadosIndustriales.png" alt="Tanques Especializados Industriales">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-oil-can"></i></div>
+                        <h3>Tanques Especializados</h3>
+                        <p>Fabricación e instalación de tanques de contención, almacenamiento y proceso industrial.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Tanques API 650 / 620</li>
+                            <li><i class="fas fa-check-circle"></i> Revestimientos especiales</li>
+                            <li><i class="fas fa-check-circle"></i> Pruebas de estanqueidad</li>
+                        </ul>
+                        <a href="contacto.html" class="service-link">Solicitar servicio <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Estructuras Metálicas -->
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="assets/estructurasMetalicas.png" alt="Estructuras Metálicas">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-building"></i></div>
+                        <h3>Estructuras Metálicas</h3>
+                        <p>Diseño y construcción de estructuras robustas, plataformas y soportes de ingeniería que aguantan cargas pesadas sin comprometer seguridad</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Diseño estructural computarizado personalizado</li>
+                            <li><i class="fas fa-check-circle"></i> Soportan cargas extremas con seguridad</li>
+                            <li><i class="fas fa-check-circle"></i> Instalación rápida y profesional</li>
+                        </ul>
+                        <a href="contacto.html" class="service-link">Solicitar servicio <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Sistemas de Ventilación -->
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="assets/sistemasVentilacion.png" alt="Sistemas de Ventilación Industrial">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-wind"></i></div>
+                        <h3>Sistemas de Ventilación</h3>
+                        <p>Soluciones de climatización, ductos y sistemas de extracción para ambientes industriales
+                            Aire limpio y temperatura controlada. Sus trabajadores respiran mejor, la maquinaria funciona más 
+                            eficiente y los productos se conservan en condiciones ideales.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Diseño de flujo de aire computarizado</li>
+                            <li><i class="fas fa-check-circle"></i> Filtros HEPA para aire limpio</li>
+                            <li><i class="fas fa-check-circle"></i> Reducción de costos operacionales</li>
+                        </ul>
+                        <a href="contacto.html" class="service-link">Solicitar servicio <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Mantenimiento Integral -->
+                <article class="service-card">
+                    <div class="service-image">
+                        <img src="assets/mantenimiento.jpeg" alt="Mantenimiento Industrial">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Mantenimiento Integral</h3>
+                        <p>Servicios preventivos y correctivos para asegurar continuidad operativa.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check-circle"></i> Mantenimiento predictivo con informes técnicos</li>
+                            <li><i class="fas fa-check-circle"></i> A su disposición para brindarle apoyo y soluciones</li>
+                            <li><i class="fas fa-check-circle"></i> Planes personalizados por nuestro equipo de trabajo ajustados a su presupuesto y necesidades </li>
+                        </ul>
+                        <a href="contacto.html" class="service-link">Solicitar servicio <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container footer-grid">
+        <div>
+            <div class="footer-logo">
+                <i class="fas fa-hard-hat"></i>
+                <strong>CYMIBSA</strong>
+            </div>
+            <p>Soluciones integrales en construcción y mantenimiento industrial. Comprometidos con la excelencia operativa y la satisfacción de nuestros clientes.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+        <div>
+            <h3>Soluciones</h3>
+            <a href="servicios.html">Montaje Industrial</a>
+            <a href="servicios.html">Tuberías Especializadas</a>
+            <a href="servicios.html">Mantenimiento Integral</a>
+            <a href="servicios.html">Estructuras Metálicas</a>
+            <a href="proyectos.html">Ver Proyectos</a>
+        </div>
+
+        <div>
+            <h3>Contacto</h3>
+            <a href="tel:2411163787"><i class="fas fa-phone"></i> 241 116 3787</a>
+            <a href="tel:2412088673"><i class="fas fa-phone"></i> 241 208 8673</a>
+            <a href="mailto:construcciones.balderas@gmail.com"><i class="fas fa-envelope"></i> construcciones.balderas@gmail.com</a>
+            <a href="mailto:operaciones.cymibsa@gmail.com"><i class="fas fa-envelope"></i> operaciones.cymibsa@gmail.com</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Calle Tepetzala No. 104, Apizaco, Tlax.</a>
+        </div>
+    </div>
+
+    <div class="footer-note">
+        <p>© 2026 CYMIBSA - Construcción y Mantenimiento Industrial Balderas S.A. de C.V. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<!-- Script para el cambio de tema -->
+<script src="js/theme.js"></script>
+</body>
+</html>
